@@ -1,7 +1,28 @@
 h1{
     color: purple;
 }
+h2{
+    color: red;
+}
 
 h1:hover {
     color: indianred;
+}
+
+input:focus{
+    font-weight: 500;
+    color: green;
+    font-size: 15px;
+}
+h2:hover{
+    color: indigo;
+}
+a:visited{
+    color: red;
+}
+h1::before{
+   content: "hello "; 
+}
+h2::after{
+    content: " Bye";
 }
